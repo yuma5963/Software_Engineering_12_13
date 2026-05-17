@@ -57,6 +57,14 @@ B1 = beta[0, 0]
 B2 = beta[1, 0]
 B0 = y_bar - B1 * x1_bar - B2 * x2_bar
 
+r_x1_y = S1y / np.sqrt(S11 * Syy)
+r_x2_y = S2y / np.sqrt(S22 * Syy)
+
+print("相関係数")
+print("x1とyの相関係数 = {:.3f}".format(r_x1_y))
+print("x2とyの相関係数 = {:.3f}".format(r_x2_y))
+print()
+
 phi_R = 2
 phi_e = n - phi_R - 1
 phi_T = n - 1
