@@ -20,6 +20,12 @@ y  = data[:, 2]
 
 n = len(y)
 
+print("データ概要")
+print("データ数 n =", n)
+print("説明変数: x1 = 広さ, x2 = 築年数")
+print("目的変数: y = 価格")
+print()
+
 x1_bar = np.mean(x1)
 x2_bar = np.mean(x2)
 y_bar = np.mean(y)
