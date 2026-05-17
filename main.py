@@ -216,3 +216,6 @@ print("{:.2f}, {:.2f}".format(conf_low, conf_high))
 print()
 print("95%予測区間")
 print("{:.2f}, {:.2f}".format(pre_low, pre_high))
+
+print()
+print("重回帰分析の処理が完了しました。")
